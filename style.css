@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+
+@media screen and (min-width:359px) {
+    .qr-page-wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qr-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        border-radius: 20px;
+        padding: 16px;
+    }
+    
+    .qr-card-img {
+        
+        width: 288px;
+        height: 288px;
+        border-radius: 20px;
+    
+    }
+    
+    .qr-card-body  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        margin-top: 24px;
+    
+    }
+    
+    .qr-card-title {
+        font-family: 'Outfit';
+        padding-left: 16px;
+        padding-right: 16px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .qr-card-text {
+        font-family: 'Outfit';
+        margin: 16px 22px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-weight: 400;
+        font-size: 15px;
+        font-size: 15;
+    }
+    
+    
+
+
+    .attribution {
+        display: block;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        
+    }
+}
+
+
+
+
+
+/* UTILITARY */
+
+/* BACKGROUND */
+
+.qr-bg-light-gray {
+    background-color: hsl(212, 45%, 89%);
+}
+
+qr-bg-grayish-blue {
+    background-color: hsl(220, 15%, 55%);
+}
+
+qr-bg-dark-blue {
+    background-color: hsl(218, 44%, 22%);
+}
+
+.qr-bg-white {
+    background-color: #fff;
+}
+
+/* TEXT  */
+
+.qr-text-grey {
+    color: #7D889E;
+}
+
+
+.qr-text-dark-navy {
+    color: #1F314F;
+}
+
+/* CARD CLASSES */
+
+
+
